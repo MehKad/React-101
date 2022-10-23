@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>React 101</h1>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Where are we</li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="https://reactjs.org/docs/getting-started.html">Getting started with react</a></li>
+        <br>
+        <li><a href="https://github.com/reactjs/reactjs.org">React source code and documentation powering reactjs.org</a></li>
+    </ul>
+
+    <hr>
+
     <div id="main_content">
 
         <div class="what_is_react">
@@ -23,25 +23,56 @@
             <p>react is a JavaScript library created by Facebook, Chocking lol.<br>It's a User Interface library (UI), a tool for building it's components</p>
         </div>
 
+        <hr>
+
         <div class="Adding_react">
             <h3>How can I add react to my website?</h3>
             <ol>
-                <li><h4>Load React API</h4></li>
+                <li><h4>Load React <a href="#API">API</a></h4></li>
                     <p>&lt;script src= "https://unpkg.com/react@16/umd/react.production.min.js"&gt;&lt;/script&gt;</p>
-                <li><h4>Load React DOM</h4></li>
+                <li><h4>Load React <a href="#DOM">DOM</a></h4></li>
                     <p>&lt;script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"&gt;&lt;/script&gt;</p>
-                <li><h4>Load Babel Compiler</h4></li>
+                <li><h4>Load <a href="Babel">Babel</a> Compiler</h4></li>
                     <p>&lt;script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"&gt;&lt;/script&gt;</p>
                 <li><h4>Babel Code</h4></li>
                     <p>&lt;script type="text/babel"&gt; JSX Babel code goes here &lt;/script&gt;</p>
             </ol>
         </div>
-        <div class="Babel">
+
+        <hr>
+
+        <div id="API">
+            <h3>You might know whats an API, or you don't, completly normal (freek).</h3>
+            <h4>API</h4>
+            <p>API stands for Application Programming Interface, it's an application programming interface for the web, it can extend the functionality of a web browser<br>It's a way for two or more computer programs to communicate with each other</p>
+            <br>
+            <h4>A famous example of the usage of APIs</h4>
+            <p>The log-in using Facebook/Twitter/Google/Github... functionality you see on so many websites. It’s incredibly convenient, well that's using APIs, and you might be wondering how does it work, here's how<br>The way it works is pretty simple. Every time the application loads, it uses the API to check whether the user is already logged in by means of whatever social media platform. If not, when the user clicks the “Log-in Using XYZ” button, a pop-up opens where they are asked to confirm they actually want to log-in with that social media profile. When the user confirms, the API provides the application with identification information, so it knows who’s logging in.</p>
+            <p>You can see this video for further explication</p>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/s7wmiS2mSXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <div id="DOM">
+            <h3>DOM, is that dominat? No</h3>
+            <p>DOM is a Document Object Model of the page<br>It defines the logical structure of documents and the way a document is accessed and manipulated.<br>Heres a HTML DOM Tree of Objects :</p>
+            <img src="https://www.w3schools.com/js/pic_htmltree.gif" alt="...">
+            <p>a video for further information : </p>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/i_T33FSl254" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <div id="Babel">
             <h3>Of-course, you're gonna be wondering what the fuck is Babel?</h3>
             <h6>Thats me btw!!!</h6>
             <h4>Well I'm here to answer that.</h4>
-            <p>Babel is a Javascript compiler that can translate markup or programming languages into JS, with Babel you can use the newest features of JS like (ES6-ECMAScript 2015)</p>
+            <p>Babel is a Javascript compiler that can translate markup or programming languages into JS, with Babel you can use the newest features of JS like (ES6-ECMAScript 2015) <br> Obviously now you understand Babel, no? Okay, so we all like new stuff, the iphone 14, the newest mac and stuff, well Babel got you, Developpers like you (I guess you are one) can use new JavaScript language features by using Babel to convert their source code into a version of JavaScript that a webbrowser can process.<br>A video explaining the subject firther more :</p>
+            <iframe width="460" height="250" src="https://www.youtube.com/embed/o9hmjdmJLMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <hr>
 
     </div>
 </body>
